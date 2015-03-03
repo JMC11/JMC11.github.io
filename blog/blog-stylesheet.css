@@ -1,1 +1,23 @@
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: cursive, sans-serif;
+}
+body {
+  background-color: blue;
+  border: 2px soild red;
+}
 
+p {
+  float: left;
+}
+
+a {
+  float:right;
+  text-decoration: None
+}
+
+a:visited {
+    color: purple;
+  }
