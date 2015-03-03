@@ -13,25 +13,9 @@ h3 {
   float: right;
 }
 
-.left {
-  float:left;
-  text-align: left;
-}
-
-.center {
-  margin-right: auto;
-  margin-left: auto;
-  background-color: pink;
-}
 
 body {
   background-color: cyan;
-}
-
-
-section {
-  text-align: center;
-  font-size: 14px;
 }
 
 a {
