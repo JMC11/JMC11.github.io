@@ -23,6 +23,7 @@ a:visited {
 
 .center {
   text-align: center;
-  background-color: red;
+  background-color: blue;
   color:white;
+  list-style-position: inside;
 }
