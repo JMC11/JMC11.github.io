@@ -9,30 +9,21 @@ h3 {
   text-align: center;
 }
 
-h4 {
-  float:right;
-  margin-right: 10%
 
 main {
   background-color: cyan;
-  }
+}
 
 
 section {
-  float: left;
-  border: 3px soild red;
+
   font-size: 14px;
 
 }
 
 a {
   text-decoration: None
-  float: right;
-}
 
-ol {
-  float:right;
-  margin-right: 10%
 }
 
 a:visited {
