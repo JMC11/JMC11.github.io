@@ -11,21 +11,20 @@ h3 {
 
 .right {
   float: right;
-  position: absolute;
 }
 
 .left {
   float:left;
-  position: absolute;
+  text-align: left;
 }
-}
+
 .center {
   margin-right: auto;
   margin-left: auto;
   background-color: pink;
 }
 
-main {
+body {
   background-color: cyan;
 }
 
@@ -33,12 +32,10 @@ main {
 section {
   text-align: center;
   font-size: 14px;
-
 }
 
 a {
-  text-decoration: None
-
+  text-decoration: None;
 }
 
 a:visited {
