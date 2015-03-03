@@ -9,7 +9,10 @@ h3 {
   text-align: center;
 }
 
-ol {
+.right {
+  float: right;
+  position: absolute;
+}
 
 .left {
   float:left;
