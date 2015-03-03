@@ -9,6 +9,9 @@ h3 {
   text-align: center;
 }
 
+ol {
+  text-align: center;
+}
 
 main {
   background-color: cyan;
@@ -16,7 +19,7 @@ main {
 
 
 section {
-
+  text-align: center;
   font-size: 14px;
 
 }
@@ -28,4 +31,4 @@ a {
 
 a:visited {
     color: purple;
-  }
+}
