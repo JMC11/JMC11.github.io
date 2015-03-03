@@ -11,14 +11,14 @@ h3 {
 
 h4 {
   float:right;
-  margin-right: auto
+  margin-right: 10%
 
-body {
+main {
   background-color: cyan;
   }
 
 
-p {
+section {
   float: left;
   border: 3px soild red;
   font-size: 14px;
@@ -27,6 +27,7 @@ p {
 
 a {
   text-decoration: None
+  float: right;
 }
 
 ol {
