@@ -4,18 +4,29 @@ h1 {
   color: white;
   font-family: cursive, sans-serif;
 }
-body {
-  background-color: blue;
-  border: 2px soild red;
+
+h3 {
+  text-align: center;
 }
+
+body {
+  background-color: cyan;
+  }
+
 
 p {
   float: left;
+  border: 3px soild red;
+  font-size: 14px;
+
 }
 
 a {
-  float:right;
   text-decoration: None
+}
+
+ol {
+  float:right;
 }
 
 a:visited {
