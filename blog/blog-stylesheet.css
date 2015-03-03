@@ -13,17 +13,18 @@ body {
   background-color: cyan;
 }
 
-a {
+a:hover {
   text-decoration: None;
 }
 
-a:visited {
-    color: purple;
-}
 
 .center {
   text-align: center;
   background-color: lightcyan;
   color:black;
   list-style-position: inside;
+}
+
+section p {
+  text-align: center;
 }
