@@ -16,7 +16,9 @@ body {
 a:hover {
   text-decoration: None;
 }
-
+h4 {
+  text-align: center;
+}
 
 .center {
   text-align: center;
