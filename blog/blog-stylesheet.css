@@ -9,6 +9,10 @@ h3 {
   text-align: center;
 }
 
+h4 {
+
+}
+
 body {
   background-color: cyan;
   }
@@ -27,6 +31,7 @@ a {
 
 ol {
   float:right;
+  margin-right: 20%
 }
 
 a:visited {
