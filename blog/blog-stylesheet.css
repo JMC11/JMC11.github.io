@@ -9,6 +9,13 @@ h3 {
   text-align: center;
 }
 
+ol {
+
+.left {
+  float:left;
+  position: absolute;
+}
+}
 .center {
   margin-right: auto;
   margin-left: auto;
