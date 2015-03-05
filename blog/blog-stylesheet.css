@@ -7,10 +7,9 @@ h1 {
 
 h3 {
   text-align: center;
-}
 
 body {
-  background-color: cyan;
+  background-color: blue;
 }
 
 a:hover {
@@ -22,7 +21,7 @@ h4 {
 
 .center {
   text-align: center;
-  background-color: lightcyan;
+  background-color: lightblue;
   color:black;
   list-style-position: inside;
 }
