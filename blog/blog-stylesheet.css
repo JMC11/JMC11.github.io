@@ -22,11 +22,11 @@ h4 {
 
 .center {
   text-align: center;
-  background-color: lightblue;
+  background-color: lightcyan;
   color:black;
   list-style-position: inside;
 }
 
-section p {
+section {
   text-align: center;
 }
