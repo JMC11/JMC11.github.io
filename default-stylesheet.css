@@ -1,37 +1,70 @@
 .link {
-  float: right;
-  color: red;
+  text-align: right;
 }
 
 body {
   background-color: cyan;
+  font-family: Verdana;
 }
 
 h1 {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: lightcyan;
+  color: darkblue;
   font-family: cursive, sans-serif;
+  width: 25%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h3 {
   text-align: center;
+}
 
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
 
 a:hover {
-  text-decoration: None;
+  text-decoration: none;
+  background-color: white;
 }
+
 h4 {
   text-align: center;
 }
 
+section {
+  text-align: center;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.me {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  height: 300px;
+  width: 300px;
+}
+
 .center {
   text-align: center;
-  background-color: lightblue;
+  background-color: lightcyan;
   color:black;
   list-style-position: inside;
 }
 
-section p {
-  text-align: center;
+.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15em;
+  border: 3px dashed darkblue;
+  background-color: lightcyan;
 }

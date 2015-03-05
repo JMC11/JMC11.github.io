@@ -1,21 +1,27 @@
 body {
   background-color: cyan;
+  font-family: verdana;
 }
 
 h1 {
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: lightcyan;
+  color: darkblue;
   font-family: cursive, sans-serif;
 }
 
 h3 {
   text-align: center;
+}
 
+.link {
+  text-align: right;
+}
 
 a:hover {
   text-decoration: None;
 }
+
 h4 {
   text-align: center;
 }
@@ -27,6 +33,12 @@ h4 {
   list-style-position: inside;
 }
 
-section {
+section p {
   text-align: center;
+  font-size: 16px
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: white;
 }
