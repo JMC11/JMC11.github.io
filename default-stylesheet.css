@@ -1,12 +1,37 @@
-
-
-.me {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  height: 250px;
-  width: 250px;
+.link {
+  float: right;
+  color: red;
 }
 
+body {
+  background-color: cyan;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: cursive, sans-serif;
+}
+
+h3 {
+  text-align: center;
 
 
+a:hover {
+  text-decoration: None;
+}
+h4 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  background-color: lightblue;
+  color:black;
+  list-style-position: inside;
+}
+
+section p {
+  text-align: center;
+}
