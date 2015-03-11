@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arrays and hashes</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+
+</head>
+
+<main>
+  <h1>Comparing Arrays and Hashes</h1>
+  <h4>March 11, 2015</h4>
+
+  <section>
+    <p>
+      Both arrays and hashes in Ruby are used to store data that can be looked up or manipulated using different iteration methods.  They are not the same though.  An arrary is really a collection of any data (objects) that has an index order system.  It is sort of a list style format.  A hash has a key-value pair and essentially means that there is a name and a value.  The name is the key and is unique to its value.
+    </p>
+    <p>Here are examples of a simple array vs a simple hash:
+
+      array_cars = ["Ford","Chverolet","Toyota"]
+
+      cars = {
+      "Ford" => "Focus"
+      "Cheverolet" => "Cavalier"
+      "Toyota" => "Tundra"
+    }
+    As you can see the arrays are just an index of values and the hash actually gives a value to a unique key.  So if you were to call these values it would be pretty similar for each.  If you put array_cars[0], Ruby would return "Ford".  The command takes the index number in the brackets and looks up the value associated with it.  Indexes start counting from 0 and up in arrays, not 1.  To retrieve data from a hash the code would be cars["Ford"].  This would return "Focus" because the unique key "Ford" has the value of "Focus".
+  </p>
+  <p>
+  So you can see why sometimes it is better to use an array over a hash and vise versa.  It all depends on the type of data you are working with and your preference.  So for instance if you are for some reason keeping track of who drives what car, then you could have a unique key such as "Father" with a value of "Truck".  If you were putting together your weekly shopping list you may just want to use an array since it will vary each week.  Hashes are much more specific than arrays, but both are great becasue it gives Ruby a lot of flexibility.
+</p>
+
+
+  </section>
+</main>
+</html>
