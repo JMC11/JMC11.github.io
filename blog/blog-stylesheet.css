@@ -43,6 +43,8 @@ a:hover {
   background-color: white;
 }
 
-.blocktext {
-
+div {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
