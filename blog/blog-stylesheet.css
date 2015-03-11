@@ -47,4 +47,7 @@ a:hover {
   background-color: lightcyan;
   color:black;
   list-style-position: inside;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
