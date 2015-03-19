@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enumerable Methods</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+
+</head>
+
+<main>
+  <h1>Ruby #Map Method</h1>
+  <h4>March 19, 2015</h4>
+
+<section>
+  <p>
+    Ruby has many enumerable methods, but in this article I am going to talk about the #map method.  The map method takes an object and block in Ruby and then runs that block for each element.  It transforms values depending on what you input into the code block.  Maps are commonly used in arrays in order to "map" out new arrays for desired values.  The map method can be called as ".map" which will output a new array, but leave the original array(the object) unaltered.  If you call it as ".map!" this will mutate or destroy the original array and output the new one.  We call .map non-destructive and .map! destructive.
+  </p>
+  <p>
+    The map method can be used on any object, but let's look at a simple array.  For example if we have <b>my_array = [2, 4, 6]</b> and we want a new array of the values that show these numbers squared, we would code the following: <b>my_array.map { |n| n ** 2 }</b>.  The following ouput would be <b>[4, 16, 36]</b>.  Notice that I did not use <b>!</b> after the map whicg means the original array is left alone.  So simply adding that symbol after the method called it will destroy the first array and print out the new.
+  </p>
+  <p>
+    Just to explain more in detail the last example for anyone who is new to Ruby, the followin array was simply declared as array my_array with the values 2, 4, and 6.  Then we called the method map after my_array and then the actual code block.  The "|n|" was the variable we held for each element in the array.  Then the actual code "n ** 2" was saying for each element, square it.  The code iterates over the enitre array.  Then it simply returns the results after going through every element.
+  </p>
+  <p>
+    So there are many useful enumerable methods in Ruby that allow programmers to easily manipulate objects as they please.  This is just an example of one, but each(FYI: also another method) one can perform many different tasks.  So take a look at an index like Ruby doc and others and you can learn a lot more and find new ways to simplify your code.
+  </p>
+</secton>
+</main>
+</html>
