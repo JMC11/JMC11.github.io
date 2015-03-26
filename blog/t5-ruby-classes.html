@@ -18,30 +18,31 @@
   </p>
   <p> I am going to take you through a simple class build in Ruby just to give a real world example and understanding of their purpose.  Suppose you had an online shopping website and wanted to require an age limit for ordering.  When someone goes to the order screen it prompts them for their age and lets them through if they are 18 or older. You would create a simple class as follows:
   </p>
-  <p>
+  <div class ="center-2">
   <code >
     class Age
     <br>
-    def initialize(age)
+      def initialize(age)
     <br>
-    @age = age
+        @age = age
     <br>
-    end
+      end
     <br>
-    def qualified
+      def qualified
     <br>
-    if @age < 18
+        if @age < 18
     <br>
-    puts "You must be 18 years or older to order."
+          puts "You must be 18 years or older to order."
     <br>
-    else
+        else
     <br>
-    puts "Thank you. You may continue with your order."
+          puts "Thank you. You may continue with your order."
     <br>
-    end
+        end
     <br>
-    end
+      end
     <br>
     end
   </code>
-</p>
+</div>
+<p>
