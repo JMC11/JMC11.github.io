@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+
+
+</head>
+
+<main>
+  <h1>Ruby Classes</h1>
+  <h4>March 26, 2015</h4>
+
+<section>
+  <p>
+    Ruby classes are a great way to really take advantage of Ruby's object-oriented structure.  Everything in Ruby is an object, but if you want a bunch of objects to perform in similar ways defining a class makes it easy.  Classes allow you to group multiple methods together and then create new objects or "instances" of this class that allow you to call upon these methods.  Classes are created as the following: <code>class Sports end</code> and then objects of this class can be made by doing: <code>baseball = Sports.new</code>  Classes also have a special method called <code>initialize</code> which, if you choose to use it, will be executed everytime a new object of that class is created.  This method can give arguments so that when you make a new object it is already "initialized" with certain values which can be very useful.  There are also what are called instance variables in classe that begin with the"@" symbol.  These are special variables that can be used in multiple methods throughout the class and still have a value.  Classes can be anything from a simple calculator method to a very complex group of methods that get you some desired output.  They are essentially a way to organize objects and methods in Ruby as well as make code easier to read, shorter, and more specific.
+  </p>
+  <p> I am going to take you through a simple class build in Ruby just to give a real world example and understanding of their purpose.  Suppose you had an online shopping website and wanted to require an age limit for ordering.  When someone goes to the order screen it prompts them for their age and lets them through if they are 18 or older. You would start by defining a class:
+    <code> class Age
+           end</code>
+  <p>Now lets give it an initialize method that make you put in an age when you create an object of this class:
+    <code> class Age
+            def initialize(age)
+              @age = age
+            end
+           end</code>
