@@ -18,7 +18,7 @@
   </p>
   <p> I am going to take you through a simple class build in Ruby just to give a real world example and understanding of their purpose.  Suppose you had an online shopping website and wanted to require an age limit for ordering.  When someone goes to the order screen it prompts them for their age and lets them through if they are 18 or older. You would create a simple class as follows:
   </p>
-  <div class ="center-2">
+  <div class ="center-3">
   <code >
     class Age
     <br>
@@ -43,6 +43,19 @@
       end
     <br>
     end
+    <br>
+    my_age = Age.new(22)
+    <br>
+    new_age = Age.new(17)
+    <br>
+    my_age.qualified
+    <br>
+    new_age.qualified
   </code>
 </div>
 <p>
+  The above code is a very simple class with simple methods.  I defined the Age class and then created an initialize method that created the instance variable @age and set it equal the argument age.  Then I created a method called qualified which takes @age (remember an instance variable keeps its current state and can be used throughout different methods in a class) and makes it a conditional saying if @age is less than 18 then the screen will prompt the following string.  Otherwise it will print the next string and let you through.  I then end the class and create two new objects of this class. (my_age and new_age)  Notice they have one argument as the initialize method asks for.  After that I simply call the method "qualified" on these new variables and it will show you the two different outputs.  Overall this is a really small and simplistic example.  Classes can be much more complicated.  There can be classes within classes, but an experienced Ruby programmer can manipulate their programs much easier with classes and object orientation.  Once someone gets the hang of Ruby, classes are very helpful ways of organizing many methods and objects.
+</p>
+</section>
+</main>
+</html>
