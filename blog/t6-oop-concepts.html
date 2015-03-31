@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Variable Scope</title>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="blog-stylesheet.css">
+</head>
+
+<main>
+  <h1>Ruby Variable Scope</h1>
+  <h4>March 31, 2015</h4>
+
+<section>
+  <p>
+    Variable scope in Ruby basically defines where a variable in Ruby can be accessed or if it can be accessed at all.  There are four different types of variable scope that I will talk about in this blog.  They are <b>local, global, instance, and class</b>.  There is also a constant type in Ruby that also has a scope.  To start let's talk about the local variable. A local variable is declared starting with an underscore or lowercase letter.  You should try and stick with lowercase letters and not include uppercase as Ruby may get confused. So simply something like <code>first_name = Adam</code> would be a good way of creating a simple local variable.  These varibles are accessible only where they are declared. For example if you create a local variable within a method, it is only accessible in that method.  You cannot use it outside of the method.  So mainly they are used for a certain function or smaller block of code for a method.
+  </p>
+  <p>
+    Next there are global variables which are created starting with the "$" symbol.  They are accessible anywhere in the program.  It does not matter where they are declared.  It is reccomended that you really try to stay away from using global variables since they can be seen throughout the program and they can be changed anywhere.  It makes it harder for a person to debug or fix code.  They can cause methods to effect other methods which breaks encapsulation which in an object oriented program is not having one object modify another.
+  </p>
+  <p>
+    Class variables are declared with the "@@" symbol.  These variables are shared with all instances of the class.  Only one value is shared with <b>all</b> instances of this class.  These variables are generally kind of like global variables except they are created in a Ruby class.  You may want to avoid using these as well as they can cause unwanted changes to your code.  When one object changes the value of a class variable, it changes that value for all the other object instances of the class.  So I would use these variables sparingly if possible.
+    </p>
+    <p>
+      Ruby instance variables are somewhat like class variables, but they are accessible by all methods in a class rather than all the instances of a class.  They are declared with an "@" symbol.  If an instance variable is changed within one method in a class, it does not change the value for all the other methods.  An object that changes the value of an instance variable will not change it for all other objects as a class variable would.  They are very useful overall in a Ruby class and can make code much shorter and easier to understand.
+    </p>
+    <p>
+      Constants are not necessarily variables, but are kind of like them.  A constant is created starting with a capital letter, but it they are mainly written in all uppercase to make it easier and less confusing.  Constants are values that are supposed to be kept throughout a program.  They can be changed, but a warning message will show up on the prompt telling you this is not suggested.  Constants can be declared outside a class or a module which will give them a global scope.  If they are created inside a class, they are accessible only within that class.  Constants must be given a value to actually exist.
+    </p>
+  </section>
+</main>
+</html>
