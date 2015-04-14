@@ -5,16 +5,17 @@ body {
 
 
 .header {
-  background-image: url("http://3.bp.blogspot.com/-tXtT-KB-6Vo/U3TogHZtGkI/AAAAAAAAAqk/U6XkBjBJFr8/s1600/logo.png");
-
+  background-image: url("https://cask.scotch.io/2013/11/git-cheat-sheet.jpg");
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: 15%;
 }
 
 h1 {
   text-align: center;
-  color: forestgreen;
+  color: darkgreen;
   font-style: bold;
   font-size: 80px;
-  text-decoration: underline;
 }
 
 .left {
@@ -47,17 +48,19 @@ body p {
 a {
   text-decoration: none;
   color: red;
+  font-style: bold;
 }
 
 ol {
   color: red;
+  font-style: bold;
 }
 
 
 .link {
   background-color: lightgray;
   border-style: solid;
-  border-color: forestgreen;
+  border-color: darkgreen;
   border-width: 5px;
   width: 12%;
 }
@@ -70,6 +73,6 @@ hr {
 
 .videos {
   border-style: solid;
-  border-color: forestgreen;
+  border-color: darkgreen;
   border-width: 5px;
 }
