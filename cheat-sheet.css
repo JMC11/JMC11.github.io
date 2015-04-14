@@ -15,12 +15,11 @@ h1 {
   float: left;
   position: fixed;
   font-size: 25px;
-  background-color: lightgray
 }
 
 a:hover {
   text-decoration: underline;
-  background-color: red;
+  background-color: black;
 }
 
 .right {
@@ -32,10 +31,10 @@ a:hover {
 
 body p {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 15%;
   margin-right: auto;
-  width: 50em;
+  width: 60em;
   color: red;
 }
 
@@ -52,4 +51,12 @@ video {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+div {
+  background-color: lightgray;
+  border-style: solid;
+  border-color: forestgreen;
+  border-width: 5px;
+  width: 12%;
 }
