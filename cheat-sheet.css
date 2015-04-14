@@ -1,11 +1,11 @@
 body {
-  background-color: white;
+  background-color: black;
   font-family: verdana;
 }
 
 h1 {
   text-align: center;
-  color: red;
+  color: forestgreen;
   font-style: bold;
   font-size: 80px;
   text-decoration: underline;
@@ -13,23 +13,43 @@ h1 {
 
 .left {
   float: left;
+  position: fixed;
+  font-size: 25px;
+  background-color: lightgray
 }
 
 a:hover {
   text-decoration: underline;
-  background-color: white;
+  background-color: red;
 }
 
 .right {
+  height: 800px;
+  width: 500px;
   float: right;
-  height: 100px;
-  width: 100px;
+
 }
 
 body p {
   text-align: center;
   font-size: 16px;
-  margin-left: auto;
+  margin-left: 15%;
   margin-right: auto;
   width: 50em;
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+ol {
+  color: red;
+}
+
+video {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
