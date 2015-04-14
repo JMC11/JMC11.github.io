@@ -3,6 +3,12 @@ body {
   font-family: verdana;
 }
 
+
+.header {
+  background-image: url("http://3.bp.blogspot.com/-tXtT-KB-6Vo/U3TogHZtGkI/AAAAAAAAAqk/U6XkBjBJFr8/s1600/logo.png");
+
+}
+
 h1 {
   text-align: center;
   color: forestgreen;
@@ -59,7 +65,6 @@ div {
 hr {
   width: 100%;
   padding-bottom: 1px;
-  padding-top: 1px;
   background-color: lightgray;
 }
 
