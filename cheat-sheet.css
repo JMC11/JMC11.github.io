@@ -7,6 +7,7 @@ h1 {
   text-align: center;
   color: red;
   font-style: bold;
+  font-size: 48px;
 }
 
 .left {
@@ -20,9 +21,11 @@ a:hover {
 
 .right {
   float: right;
+  height: 100px;
+  width: 100px;
 }
 
-p {
+body p {
   text-align: center;
-  font-size: 16px
+  font-size: 16px;
 }
