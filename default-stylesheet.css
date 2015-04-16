@@ -79,4 +79,5 @@ ul {
   margin: auto;
   display: table;
   font-size: 36px;
+  list-style: outside;
 }
