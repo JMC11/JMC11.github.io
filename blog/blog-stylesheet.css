@@ -27,12 +27,14 @@ h3 {
   text-align: right;
 }
 
-a:hover {
-  text-decoration: None;
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-size: 20px;
 }
 
-h4 {
-  text-align: center;
+a:hover {
+  text-decoration: None;
 }
 
 .center {
