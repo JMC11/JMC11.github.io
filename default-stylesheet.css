@@ -1,18 +1,25 @@
+html {
+  background-image: url("https://presentations.inxpo.com/SharedContent/VX/images/background-shell.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .link {
   text-align: right;
 }
 
 body {
-  background-color: cyan;
   font-family: Verdana;
 }
 
 h1 {
+  background-image: url("http://borek.gen.tr/wp-content/uploads/header-background.jpg");
+  font-style:
+  font-size: 60px;
   text-align: center;
   background-color: lightcyan;
-  color: darkblue;
   font-family: cursive, sans-serif;
-  width: 25%;
+  width: 40%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -24,6 +31,7 @@ h3 {
 a {
   color: darkblue;
   text-decoration: none;
+  font-size: 20px;
 }
 
 a:visited {
@@ -44,14 +52,15 @@ section {
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 20px;
 }
 
 .me {
   margin-right: auto;
   margin-left: auto;
   display: block;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
 }
 
 .center {
@@ -62,9 +71,15 @@ section {
 }
 
 .blocktext {
+  background-image: url("http://borek.gen.tr/wp-content/uploads/header-background.jpg");
   margin-left: auto;
   margin-right: auto;
-  width: 15em;
-  border: 3px dashed darkblue;
-  background-color: lightcyan;
+  width: 35em;
+  border: 3px solid slateblue;
+}
+
+ul {
+  margin: auto;
+  display: table;
+  font-size: 36px;
 }
