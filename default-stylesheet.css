@@ -14,10 +14,8 @@ body {
 
 h1 {
   background-image: url("http://borek.gen.tr/wp-content/uploads/header-background.jpg");
-  font-style:
   font-size: 60px;
   text-align: center;
-  background-color: lightcyan;
   font-family: cursive, sans-serif;
   width: 40%;
   margin-right: auto;
@@ -65,7 +63,6 @@ section {
 
 .center {
   text-align: center;
-  background-color: lightcyan;
   color:black;
   list-style-position: inside;
 }
