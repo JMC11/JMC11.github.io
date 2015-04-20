@@ -37,9 +37,6 @@ a {
   font-size: 20px;
 }
 
-a:hover {
-  text-decoration: None;
-}
 
 .center {
   background-image: url("http://borek.gen.tr/wp-content/uploads/header-background.jpg");
@@ -54,8 +51,12 @@ section p {
   font-size: 16px
 }
 
+a:visited {
+  color: black;
+}
+
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   background-color: white;
 }
 
